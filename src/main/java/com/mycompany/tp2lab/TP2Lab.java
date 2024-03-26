@@ -11,5 +11,11 @@ public class TP2Lab {
         System.out.println("Ingrese su nombre.");
         
         String nombre = scanner.nextLine();
+        
+       if (nombre.equalsIgnoreCase("ignacio") || nombre.equalsIgnoreCase("jonathan")) {
+            System.out.println("Bienvenido, " + nombre + ".");
+        } else {
+            System.out.println("Su nombre no está en nuestra lista.");
+        }
     }
 }
